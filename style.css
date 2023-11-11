@@ -1,5 +1,5 @@
 #main{
-	margin-left: 20px;
+	margin-left: 10px;
 	width: 165px;
 }
 
@@ -49,5 +49,15 @@ p{
 #Xiaomi_note_10_pro{
 	background: rgb(235, 235, 235);
 	border-radius: 15px;
+	height: 470px;
+}
+
+#Iphone_11_pro_max{
+	background: rgb(235, 235, 235);
+	border-radius: 15px;
+	position: absolute;
+	top: 8px;
+	left:195px;
+	width: 165px;
 	height: 470px;
 }
