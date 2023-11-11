@@ -1,4 +1,53 @@
-a {
+#main{
+	margin-left: 20px;
+	width: 165px;
+}
 
-	color: red;
+#img{
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+p{
+	text-align: center;
+	height: 8px;
+}
+
+.model, .company{
+	font-size: 14px;
+}
+
+.company{
+	color: rgb(190, 190, 190);
+	position: relative;
+	top: 12px;
+	}
+	
+.button_buy{
+	border: none;
+	color: white;
+	width: 145px;
+	height: 35px;
+	background-color:rgb(100, 130, 255);
+	border-radius: 10px;
+	font-size: 11px;
+}
+
+.button_details{
+	position: relative;
+	top: -5px;
+	border: 2px solid ;
+	border-color: rgb(100, 130, 255);
+	width: 145px;
+	height: 35px;
+	background-color:white;
+	border-radius: 10px;
+	font-size: 11px;
+}
+
+#Xiaomi_note_10_pro{
+	background: rgb(235, 235, 235);
+	border-radius: 15px;
+	height: 470px;
 }
