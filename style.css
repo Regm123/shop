@@ -6,7 +6,6 @@
 #img{
 	margin-left: 25px;
 	margin-top: 25px;
-	margin-bottom: 10px;
 }
 
 p{
@@ -17,6 +16,19 @@ p{
 .model, .company{
 	font-size: 14px;
 }
+
+.content_in_product_one{
+	position: absolute;
+	top: 265px;
+	left:28px;
+}
+
+.content_in_product_two{
+	position: absolute;
+	top: 257px;
+	left:10px;
+}
+
 
 .company{
 	color: rgb(190, 190, 190);
@@ -59,5 +71,11 @@ p{
 	top: 8px;
 	left:195px;
 	width: 165px;
+	height: 470px;
+}
+
+#Xiaomi_note_8_pro{
+	background: rgb(235, 235, 235);
+	border-radius: 15px;
 	height: 470px;
 }
