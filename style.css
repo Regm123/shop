@@ -19,13 +19,13 @@ p{
 
 .content_in_product_one{
 	position: absolute;
-	top: 265px;
+/*	top: 265px;*/
 	left:28px;
 }
 
 .content_in_product_two{
 	position: absolute;
-	top: 257px;
+/*	top: 257px;*/
 	left:10px;
 }
 
@@ -44,7 +44,34 @@ p{
 	background-color:rgb(100, 130, 255);
 	border-radius: 10px;
 	font-size: 11px;
+	transition: all 0.5s;
+	cursor: pointer;
 }
+
+.button_buy span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_buy span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.button_buy:hover span {
+  padding-right: 15px;
+}
+
+.button_buy:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 
 .button_details{
 	position: relative;
@@ -55,27 +82,47 @@ p{
 	height: 35px;
 	background-color:white;
 	border-radius: 10px;
+	transition: all 0.5s;
 	font-size: 11px;
+	cursor: pointer;
 }
 
-#Xiaomi_note_10_pro{
+.button_details span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_details span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.button_details:hover span {
+  padding-right: 15px;
+}
+
+.button_details:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.One{
 	background: rgb(235, 235, 235);
 	border-radius: 15px;
 	height: 470px;
 }
 
-#Iphone_11_pro_max{
+.Two{
 	background: rgb(235, 235, 235);
 	border-radius: 15px;
 	position: absolute;
 	top: 8px;
 	left:195px;
 	width: 165px;
-	height: 470px;
-}
-
-#Xiaomi_note_8_pro{
-	background: rgb(235, 235, 235);
-	border-radius: 15px;
 	height: 470px;
 }
